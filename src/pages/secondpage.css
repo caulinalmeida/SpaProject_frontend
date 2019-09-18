@@ -1,0 +1,132 @@
+div.s-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+hr {
+    margin: 10px 0;
+    border: 1px dashed #ccc;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+/* NAV --------------------------------------------------------------------- */
+div.s-container nav {
+    width: 100%;
+    height: 70px;
+    background-color: #E88E66;
+}
+
+div.s-container nav div.header-container {
+    margin: auto;
+    width: 150vh;
+    height: 100%;
+}
+
+div.s-container nav div.header-container div.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+div.s-container nav div.header-container div.header div.logo, div.user {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+div.s-container nav div.header-container div.header div.logo img, div.user img {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+
+div.s-container nav div.header-container div.header div.logo p, div.user p {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #fff;
+}
+
+div.s-container nav div.header-container div.header div.user a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.6;
+}
+/* --- --------------------------------------------------------------------- */
+/* CONTENT ----------------------------------------------------------------- */
+
+div.s-container div.cont-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+div.s-container div.cont-container p.ag {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #E88E66;
+    margin-bottom: 30px;
+}
+
+div.s-container div.cont-container div.content {
+    background-color: #fff;
+    width: 100vh;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+div.s-container div.cont-container div.content div.info-client {
+    padding: 20px;
+}
+
+div.s-container div.cont-container div.content div.info-client p.title {
+    font-size: 18px;
+    color: #E88E66;
+}
+
+div.s-container div.cont-container div.content div.info-client p {
+    color: #706e7b;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+div.s-container div.cont-container div.content div.info-client p.alert-ag{
+    font-size: 14px;
+    color: red;
+
+}
+
+div.s-container div.cont-container div.content div.info-client div.ag-user-content {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-evenly;
+}
+
+div.s-container div.cont-container div.content div.info-client div.ag-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 20vh;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px;    
+}
+
+div.s-container div.cont-container div.content div.info-client div.ag-user img {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+
+div.s-container div.cont-container div.content div.info-client div.ag-user p.serv {
+    font-weight: bolder;
+    font-size: 13px;
+    color: #E88E66;
+}

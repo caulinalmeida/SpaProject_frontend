@@ -1,0 +1,46 @@
+div.f-container {
+    background: url('../assets/banner.jpg');
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.f-container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.f-container form img {
+    margin-bottom: 15px;
+    max-width: 350px;
+    width: auto;
+}
+
+div.f-container form input {
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 40vh;
+    height: 48px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #666;
+}
+
+div.f-container form button {
+    margin-top: 5px;
+    border: 0;
+    border-radius: 4px;
+    width: 40vh;
+    height: 48px;
+    font-size: 16px;
+    background: #E88E66;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+}
