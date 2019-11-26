@@ -39,47 +39,25 @@ export default function Second() {
                         <hr/>
                         <div className="ag-user-content">
                             <div className="ag-user">
-                                <img src={user} alt="user"/>
+                                
                                 <span>
                                     <p className="serv">Maquiagem</p>
                                 </span>
                             </div>
                             <div className="ag-user">
-                                <img src={user} alt="user"/>
+                                
                                 <span>
                                     <p className="serv">Massagem relaxante</p>
                                 </span>
                             </div>
+                            
                             <div className="ag-user">
-                                <img src={user} alt="user"/>
-                                <span>
-                                    <p className="serv">Massagem seilaoq</p>
-                                </span>
-                            </div>
-                            <div className="ag-user">
-                                <img src={user} alt="user"/>
-                                <span>
-                                    <p className="serv">Aparelho 1</p>
-                                </span>
-                            </div>
-                            <div className="ag-user">
-                                <img src={user} alt="user"/>
-                                <span>
-                                    <p className="serv">Procedimento</p>
-                                </span>
-                            </div>
-                            <div className="ag-user">
-                                <img src={user} alt="user"/>
+                                
                                 <span>
                                     <p className="serv">Depilação</p>
                                 </span>
                             </div>
-                            <div className="ag-user">
-                                <img src={user} alt="user"/>
-                                <span>
-                                    <p className="serv">seilaoq</p>
-                                </span>
-                            </div>
+                            
                         </div>
                         <hr/>
                         <p className="alert-ag">Agendado para <span className="bolder">07/09</span> as <span className="bolder">09:30</span></p>
@@ -94,35 +72,30 @@ export default function Second() {
                         <p>Feito em 06/09 as 20:37</p>
                         <hr/>
                         <div className="ag-user-content">
-                            <div className="ag-user">
-                                <img src={user} alt="user"/>
+                            <div className="ag-user">    
                                 <span>
                                     <p className="serv">Maquiagem</p>
                                 </span>
                             </div>
-                            <div className="ag-user">
-                                <img src={user} alt="user"/>
+                            <div className="ag-user">    
                                 <span>
                                     <p className="serv">Massagem relaxante</p>
                                 </span>
                             </div>
-                
                         </div>
                         <hr/>
                         <p className="alert-ag">Agendado para <span className="bolder">07/09</span> as <span className="bolder">06:30</span></p>
                     </div>
-
                 </div>
 
                 <div className="content">
-
                     <div className="info-client">
                         <p className="title">Agendamento <span className="bolder">#3</span> - Geovana Silva</p>
                         <p>Feito em 06/09 as 20:37</p>
                         <hr/>
                         <div className="ag-user-content">
                             <div className="ag-user">
-                                <img src={user} alt="user"/>
+                                
                                 <span>
                                     <p className="serv">Maquiagem</p>
                                 </span>
@@ -142,29 +115,15 @@ export default function Second() {
                         <hr/>
                         <div className="ag-user-content">
                             <div className="ag-user">
-                                <img src={user} alt="user"/>
                                 <span>
                                     <p className="serv">Maquiagem</p>
                                 </span>
                             </div>
                             <div className="ag-user">
-                                <img src={user} alt="user"/>
                                 <span>
                                     <p className="serv">Massagem relaxante</p>
                                 </span>
-                            </div>
-                            <div className="ag-user">
-                                <img src={user} alt="user"/>
-                                <span>
-                                    <p className="serv">Massagem seilaoq</p>
-                                </span>
-                            </div>
-                            <div className="ag-user">
-                                <img src={user} alt="user"/>
-                                <span>
-                                    <p className="serv">Aparelho 1</p>
-                                </span>
-                            </div>
+                            </div>   
                         </div>
                         <hr/>
                         <p className="alert-ag">Agendado para <span className="bolder">07/09</span> as <span className="bolder">12:30</span></p>

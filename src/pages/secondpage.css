@@ -1,7 +1,6 @@
 div.s-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 hr {
@@ -127,6 +126,6 @@ div.s-container div.cont-container div.content div.info-client div.ag-user img {
 
 div.s-container div.cont-container div.content div.info-client div.ag-user p.serv {
     font-weight: bolder;
-    font-size: 13px;
+    font-size: 14px;
     color: #E88E66;
 }
